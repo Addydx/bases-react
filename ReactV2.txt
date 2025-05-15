@@ -1,0 +1,1 @@
+Esta es la version de react que se trabaja en la escuela 

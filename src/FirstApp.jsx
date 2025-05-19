@@ -1,18 +1,17 @@
-import { CustomCard } from "./components/CustomCard";
+import { CustomCard } from "./components/CustomCard"
+import { FirstHook } from "./components/FirstHook"
+
 
 export const FirstApp = () => {
     return (
         <>
-        <div className="container my-4">
-            <div className="row">
-                <div className="col-auto">
-                    <CustomCard title="Imagen 1" />
-                </div>
-                <div className="col-auto">
-                    <CustomCard title="Imagen 2" />
+            <div className="container-fluid">
+                <div className="row">
+                    <h3>Hook</h3>
+                    <FirstHook initialValue={0}/>
                 </div>
             </div>
-        </div>
         </>
-    );
+    )
+
 }
